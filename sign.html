@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <script src="sign.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+  <header>Sign Up</header>
+ <div class="container">
+     <form id="myForm">
+         <div class="first">
+             <input type="text" placeholder="First Name" id="firstName">
+         </div>
+         <div class="Middle">
+             <input type="text" placeholder="Middle Name" id="middleInitial">
+         </div>
+         <div class="Last">
+             <input type="text" placeholder="Last Name" id="lastName">
+         </div>
+         <div class="Email">
+             <input type="email" placeholder="Email Address" id="email">
+         </div>
+         <div class="Password">
+             <input type="password" placeholder="Password" id="password">
+         </div>
+     <form id="myForm">
+        <div class="Sign">
+             <button type="submit" onclick="registerUser()">Sign Up</button>
+       </div>
+     </form>
+
+         <div class="button">
+             <button type="reset" id="resetButton">Reset</button>
+         </div>
+       </div>
+         <div class="button">
+             <button type="Log" id="loginButton" onclick="location.href='LogIn.html'">Log In</button>
+         </div>
+     </form>
+ </div>
+         <div id="successMessage" style="display: none;">
+               Congratulations! You have successfully signed up.
+            <button type="Continue" onclick="location.href='LogIn.html'" id="Continue">Continue to Log in</button>
+           <button type="button" onclick="goBackToSignUp()" id="Back">Go back</button>
+
+ </div>
+</body>
+</html>

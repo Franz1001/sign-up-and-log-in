@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    padding: 2em 0;
+    background-image: url("https://github.com/Franz1001/Image/blob/main/travis-scott-air-jordan-1-low-og-olive-dz4137-106-release-date-lead.jpg?raw=true");
+    background-color: #f0f0f0;
+    background-position: center;
+    background-size:cover;
+}
+header{
+  font-size: 40px;
+  color: black;
+}
+body {
+  width: 200px;
+  height: 300px;
+  margin: 100px  500px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.first{
+  margin: 5px;
+}
+.Middle{
+  margin: 5px;
+}
+.Last{
+  margin: 5px;
+}
+.Email{
+  margin: 5px;
+}
+button {
+    width: 100%;
+    height: 100%
+    padding: 20%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    margin-top: 4%;
+}
+button[type="Continue"] {
+    background-color: #dc3545;
+    margin-top: 4%;
+}
+button[type="Log"] {
+    background-color: #4CAF50;
+    margin-top: 4%;
+}
+#successMessage {
+    display: none;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+}

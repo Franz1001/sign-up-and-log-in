@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    padding: 2em 0;
+    background-image: url("https://github.com/Franz1001/Image/blob/main/vans.jpg?raw=true");
+    background-color: #f0f0f0;
+    background-position: auto;
+    background-size:cover;
+}
+header{
+  font-size: 50px;
+  color: white;
+}
+body {
+  width: 200px;
+  height: 200px;
+  margin: 100px  500px;
+  padding: 10px;
+  border: 2px solid white;
+}
+.first{
+  margin: 5px;
+}
+.Email{
+  margin: 5px;
+}
+button {
+    width: 100%;
+    height: 100%
+    padding: 20%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    margin-top: 4%;
+}
+#successMessage {
+    display: none;
+    font-size: 24px;
+    color: black;
+    margin-top: 20px;
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+}
